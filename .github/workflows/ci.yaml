@@ -21,7 +21,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: quay.io
-          username: lunavdb
+          username: lunavdb+almluna
           password: ${{ secrets.ROBOT_PW }}
 
       - name: Extract metadata (tags, labels) for Docker
